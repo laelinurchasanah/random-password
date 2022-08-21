@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #090214, #0f0f70)
+}
+
+.container{
+    width: 350px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+.generator{
+    border-radius:3px;
+    background:#3b3b98;
+    box-shadow: 0px 2px 10px rgba(255,255,255,0.2);
+    padding:20px;
+}
+.generator h2 {
+    text-align:center;
+    color:#fff;
+    margin-bottom: 20px;
+}
+.generator .generator-password {
+    position: relative;
+    background:rgba(0,0,0,0.4);
+    padding:15px;
+    color:#fff;
+    margin-bottom: 15px;
+}
+.generator .pswbutton{
+    position: absolute;
+    background: #602060;
+    color:#fff;
+    border:none;
+    padding:10px;
+    height:35px;
+    top:0px;
+    right:0px;
+    cursor:pointer;
+}
+.generator_btn{
+    background:rgba(0,0,0,0.2);
+    border:none;
+    display: block;
+    width:100%;
+    padding:10px;
+    color:#fff;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor:pointer;
+}
+.generator_btn:hover{
+    background:#4f124f;
+    transition:0.5s;
+}
+
+.form-group{
+    display: flex;
+    justify-content:space-between;
+    color: #fff;
+    margin-bottom:5px; 
+
+    input[type='number']{
+        width:40px;
+    }
+    &:last-of-type{
+        margin-bottom:25px;
+    }
+    label{
+        cursor: pointer;
+        user-select: none;
+    }
+}
